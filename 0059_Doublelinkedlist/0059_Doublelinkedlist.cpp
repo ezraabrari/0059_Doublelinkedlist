@@ -94,7 +94,7 @@ void deleteNode() {
 	if (current == START) {
 		START = START->next;
 		if (START != NULL) {
-			START->prev = NULL
+			START->prev = NULL;
 		}
 	}
 	else {
@@ -108,4 +108,10 @@ void deleteNode() {
 	cout << "\x1b[32mRecord with roll number " << rollNo << "deleted\x1b[0m" << endl;
 }
 
-bool listEmpty
+bool listEmpty() {
+	return (START == NULL);
+}
+
+void traverse() {
+
+}
