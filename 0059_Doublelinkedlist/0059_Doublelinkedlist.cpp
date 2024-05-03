@@ -162,7 +162,17 @@ void searchData() {
 int main() {
 	while (true) {
 		try {
-			cout << "\nMenu"
+			cout << "\nMenu" << endl;
+			cout << "1. add record to the list" << endl;
+			cout << "2. delete record from the list" << endl;
+			cout << "3. view all record in the ascending order off roll number " << endl;
+			cout << "4. view all record in the descending order off roll number" << endl;
+			cout << "5.	search for a record	in the list " << endl;
+			cout << "6. exit" << endl;
+			cout << "\nEnter your choice (1-6) : " << endl;
+			char ch;
+			cin >> ch;
+
 		}
 	}
 }
