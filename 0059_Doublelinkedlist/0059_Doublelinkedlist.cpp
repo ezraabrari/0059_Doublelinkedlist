@@ -136,11 +136,18 @@ void retraverse() {
 
 		while (currentNode != NULL) {
 			cout << currentNode->noMhs << " " << currentNode->name << endl;
-			currentNode = currentNode->prev
+			currentNode = currentNode->prev;
 		}
 	}
 }
 
 void searchData() {
-
+	if (listEmpty() == true) {
+		cout << "\nList is emptyy" << endl;
+	}
+	Node* prev, * curr;
+	prev = curr = NULL;
+	cout << "\nEnter the roll number of the student whose record you want to search : ";
+	int num;
+	cin >> num;
 }
